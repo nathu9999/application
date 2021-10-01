@@ -7,54 +7,49 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>spring-boot-complete</artifactId>
+	</parent><!-- end::tests[] -->
+	<groupId>com.example</groupId><!-- end::tests[] -->
+	<artifactId>spring-boot-complete</artifactId><!-- end::tests[] -->
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-complete</name>
+	<name>spring-boot-complete</name><!-- end::tests[] -->
 	<description>Demo project for Spring Boot</description>
-
+<!-- end::tests[] --><!-- end::tests[] --><!-- end::tests[] -->
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>1.8</java.version><!-- end::tests[] -->
 	</properties>
-
+<!-- end::tests[] -->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId><!-- end::tests[] --><!-- end::tests[] -->
 		</dependency>
 
 		<!-- tag::actuator[] -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
+		<dependency><!-- end::tests[] -->
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<!-- end::actuator[] -->
-		
-		<dependency>
+		<!-- end::tests[] --><!-- end::tests[] --><!-- end::tests[] -->
+		<dependency><!-- end::tests[] --><!-- end::tests[] --><!-- end::tests[] -->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 
-		<!-- tag::tests[] -->
+		<!-- tag::tests[] --><!-- end::tests[] --><!-- end::tests[] -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 		<!-- end::tests[] -->
-		
-		
+		<!-- end::tests[] -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+<!-- end::tests[] -->
 	</dependencies>
-	
-	
-
 	<build>
 		<plugins>
 			<plugin>
@@ -63,5 +58,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-</project>
+</project><!-- end::tests[] -->
