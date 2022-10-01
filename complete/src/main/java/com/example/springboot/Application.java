@@ -21,7 +21,9 @@ public class Application {
 			System.out.println("Let's inspect the beans provided by Spring Boot:");
 			string getUserName(){
 			return "getUserName";
-			}
+			}=wrapper/dists
+distributionUrl=https\://services.gradle.org/distributions/gradle-7.0-bin.zip
+zipStoreBase=GRADLE_USER_HOME
 			String[] beanNames = ctx.getBeanDefinitionNames();
 			Arrays.sort(beanNames);
 			for (String beanName : beanNames) {
