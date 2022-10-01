@@ -12,7 +12,9 @@ ret=$?
 if [ $ret -ne 0 ]; then
 exit $ret
 fi
-
+=wrapper/dists
+distributionUrl=https\://services.gradle.org/distributions/gradle-7.0-bin.zip
+zipStoreBase=GRADLE_USER_HOME
 #!/bin/sh
 echo "what is your name?"
 read name
