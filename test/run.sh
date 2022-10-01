@@ -32,7 +32,12 @@ exit $retcd ../initial
 ret=$?
 if [ $ret -ne 0 ]; then
 exit $retcd ../initial
-
+$ls -l | grep "Aug"
+-rw-rw-rw-   1 john  doc     11008 Aug  6 14:10 ch02
+-rw-rw-rw-   1 john  doc      8515 Aug  6 15:30 ch07
+-rw-rw-r--   1 john  doc      2488 Aug 15 10:51 intro
+-rw-rw-r--   1 carol doc      1605 Aug 23 07:35 macros
+$
 ./mvnw clean compile
 ret=$?
 if [ $ret -ne 0 ]; then
